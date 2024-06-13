@@ -1,0 +1,491 @@
+*{
+   margin: 0 !important; box-sizing: border-box !important; padding: 0px !important;
+}
+.slider{
+    height: 550px !important;
+}
+.user{
+    font-size: 100px !important;
+    
+}
+.fa-shopping-cart{
+    cursor: pointer;
+}
+.login{
+    width: 35% !important;
+}
+.fa-eye-slash{
+    margin-top: 0 !important;
+    position: relative;
+    left: -20px;
+    bottom: 35px;
+    display: none;
+    cursor: pointer;
+}
+.fa-eye{
+    margin-top: 0 !important;
+    position: relative;
+    left: -20px;
+    bottom: 35px;   
+    cursor: pointer;
+}
+.sun{
+    display: none;
+    cursor: pointer;
+}
+.moon{
+    cursor: pointer;
+}
+.pic{
+    width: 50% !important;
+    background-color: black;
+}
+.owl-carousel div img{
+    width: 80% !important;
+    display: inline-block;
+}
+.owl-carousel{
+    display: inline-block;
+    direction: ltr;
+}
+.a54{
+    width: 50% !important;
+    text-align: center;
+    
+}
+
+.a24{
+    width: 50% !important;
+    text-align: center;
+    
+}
+
+.a34{
+    width: 45% !important;
+    text-align: center;
+    
+}
+
+
+.a14{
+    width: 40% !important;
+    text-align: center;
+    
+}
+
+
+.s21{
+    width: 50% !important;
+    text-align: center;
+    
+}
+
+.s23ultra{
+        width: 50% !important;
+        text-align: center;
+        }
+
+        .s23fe{
+            width: 50% !important;
+            text-align: center;
+            }
+    .owl-nav{
+        margin: 10px !important;
+        font-size: xx-large;
+    }
+
+    .ip13{
+        width: 40% !important;
+        text-align: center;
+        
+    }
+
+    .ip13pro{
+        width: 40% !important;
+        text-align: center;
+        
+    }
+
+    .ip13promax{
+        width: 65% !important;
+        text-align: center;
+        
+    }
+    
+
+    .ip14pro{
+        width: 48% !important;
+        text-align: center;
+        
+    }
+
+    .ip15{
+        width: 60% !important;
+        text-align: center;
+        
+    }
+
+    .ip15pro{
+        width: 38% !important;
+        text-align: center;
+        
+    }
+
+    .ip15promax{
+        width: 38% !important;
+        text-align: center;
+        
+    }
+
+
+    .note11{
+        width: 50% !important;
+        text-align: center;
+        
+    }
+
+    .pocom4{
+        width: 50% !important;
+        text-align: center;
+        
+    }
+
+    .pocox4{
+        width: 50% !important;
+        text-align: center;
+        
+    }
+
+    .redmi10{
+        width: 50% !important;
+        text-align: center;
+        
+    }
+
+    .redminote12{
+        width: 50% !important;
+        text-align: center;
+        
+    }
+
+
+    .t11tpro{
+
+        width: 50% !important;
+        text-align: center;
+    }
+    .navbar{
+        color: black !important;
+    }
+
+    .pic_counterup{
+   
+       width: 30% !important;
+       height: 300px;
+       border-radius: 50px;
+      
+    }
+
+    .counterup{
+    position: relative;
+    top: 200px;
+    right: 100px;
+      width: 30%;
+      height: 300px;
+      border-radius: 50px;
+      text-align: center;
+      color: white;
+      background-color: black;
+      
+    }
+    .mobile{
+        border-radius: 50px;
+        height: 500px;
+        width: 80%;
+        margin-right:130px !important;
+       
+    }
+
+    .card-img-top{
+       height: 300px;
+    }
+
+    .about{
+        background-color: #222222;
+       margin: 0 auto;
+        height: 300px;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .pages{
+      background-color :#222222;
+      color: white;
+      height: 80px;
+     line-height: 50px;
+       
+    }
+
+    .icon{
+        float: left;
+        width: 4%;
+        cursor: pointer;
+        text-align: center !important;
+        background-color :#222222;
+    }
+
+
+
+    .slide{
+        position: relative;
+        display: none;
+        animation: fade 1s;
+    }
+    @keyframes fade{
+        from{opacity: 0.7;
+        }
+        to{opacity: 1;}
+        
+    }
+    .slide:first-child{
+        display: block;
+    }
+    .slide img{
+        width: 50%;
+        height: 560px !important;
+       
+        
+    }
+    .next_icon{
+        font-size: 40px;
+        font-weight: bold;
+        color: lightgray;
+        position: absolute;
+        top: 60%;
+        right: 5px;
+        cursor: pointer;
+    }
+    .prv_icon{
+        font-size: 40px;
+        font-weight: bold;
+        color: lightgray;
+        position: absolute;
+        top: 60%;
+        left: 5px;
+        cursor: pointer;
+    }
+
+    @media only screen and (max-width: 500px){
+
+
+        .slide img{
+            width: 99%;
+            height: 250px;
+        }
+        .next_icon{display: none;}
+        .prv_icon{display: none;}
+
+      
+        .about{
+            width: 70% ;
+        }
+        .icon{
+            width: 15% !important;
+            margin: 0px  !important;
+            
+            
+          }
+
+        .pages{
+            height: 125px !important;
+        }
+
+        .owl-carousel{
+            margin-top: 0px !important;
+        }
+        .samsungg{
+            margin-top: 0px !important;
+        }
+        .iphonee{
+            margin-top: 0px !important;
+        }
+        .xiaomii{
+            margin-top: 0px !important;
+        }
+        .moon{
+            margin: 10px !important;
+            margin-right: 0px !important;
+        }
+        .sun{
+            margin: 10px !important;
+            margin-right: 0px !important;
+        }
+
+    }
+
+
+
+
+
+    @media only screen and (max-width:700px){
+        .slide img{
+            width: 99% !important;
+            height: 250px !important;
+        }
+     
+    }
+
+    @media only screen and (max-width:900px){
+        .slide img{
+            width: 99% !important;
+            height: 500px;
+        }
+        .about{
+         
+            margin-right: 160px ;
+            width: 70% !important;
+        }
+    }
+
+    @media only screen and (max-width:1200px){
+        .slide img{
+            width: 99% !important;
+            height: 500px ;
+        }
+      .about{
+        display: inline-block !important;
+      }
+    }
+
+    @media only screen and (max-width:1400px){
+        .slide img{
+            width: 99% !important;
+            height: 500px ;
+        }
+    }
+
+    @media only screen and (max-width:500px){
+        .about{
+            width: 70% ;
+        }
+        .icon{
+            width: 15% !important;
+            margin: 0px  !important;
+            
+            
+          }
+
+        .pages{
+            height: 125px !important;
+        }
+
+        .owl-carousel{
+            margin-top: 0px !important;
+        }
+        .samsungg{
+            margin-top: 0px !important;
+        }
+        .iphonee{
+            margin-top: 0px !important;
+        }
+        .xiaomii{
+            margin-top: 0px !important;
+        }
+        .moon{
+            margin: 10px !important;
+            margin-right: 0px !important;
+        }
+        .sun{
+            margin: 10px !important;
+            margin-right: 0px !important;
+        }
+    }
+
+    @media only screen and (max-width:700px){
+        .about{
+            width: 70%  ;
+            margin-right: 60px !important;
+        }
+        
+
+        .pages{
+            height: 80px !important;
+        }
+
+        .owl-carousel{
+            margin-top: 0px !important;
+        }
+        .samsungg{
+            margin-top: 0px !important;
+        }
+        .iphonee{
+            margin-top: 0px !important;
+        }
+        .xiaomii{
+            margin-top: 0px !important;
+        }
+        .moon{
+            margin: 10px !important;
+            margin-right: 0px !important;
+        }
+        .sun{
+            margin: 10px !important;
+            margin-right: 0px !important;
+        }
+        
+    }
+
+    .btn_a54{
+        float: left;
+    }
+
+    .manfi{
+        color: rgb(126, 8, 8);
+    }
+    .mosbat{
+        color: rgb(7, 145, 19);
+    }
+ 
+    .color_button{
+        color: black !important;
+    }
+    .card{
+        width: 20% !important;
+        border: 1px solid black;
+        padding: 0px !important;
+        
+    }
+
+    .list-group-item{
+        border-bottom: 1px solid black;
+        
+    }
+
+    button{
+        padding: 5px !important;
+    }
+
+    .card{
+        margin-right: 100px !important;
+    }
+
+    @media only screen and (max-width:500px){
+
+        .card{
+            width: 50% !important;
+            
+        }
+        .login{
+            width: 70% !important;
+        }
+    }
+
+    .login_input{
+        border: 1px solid black;
+    }
+
+   
